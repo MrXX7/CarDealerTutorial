@@ -12,6 +12,7 @@
 		ADAF9947281AB71600F5B332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAF9946281AB71600F5B332 /* Assets.xcassets */; };
 		ADAF994A281AB71600F5B332 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAF9949281AB71600F5B332 /* Preview Assets.xcassets */; };
 		ADAF9952281AB84D00F5B332 /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF9951281AB84D00F5B332 /* CarRow.swift */; };
+		ADCA01F3281ACF3B0054180D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA01F2281ACF3B0054180D /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ADAF9946281AB71600F5B332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAF9949281AB71600F5B332 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADAF9951281AB84D00F5B332 /* CarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
+		ADCA01F2281ACF3B0054180D /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		ADAF9936281AB71400F5B332 = {
 			isa = PBXGroup;
 			children = (
+				ADCA01EF281ACF0E0054180D /* Model */,
 				ADAF9950281AB7F700F5B332 /* Views */,
 				ADAF9941281AB71400F5B332 /* CarDealer */,
 				ADAF9940281AB71400F5B332 /* Products */,
@@ -76,6 +79,14 @@
 				ADAF9951281AB84D00F5B332 /* CarRow.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ADCA01EF281ACF0E0054180D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA01F2281ACF3B0054180D /* Car.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAF9952281AB84D00F5B332 /* CarRow.swift in Sources */,
+				ADCA01F3281ACF3B0054180D /* Car.swift in Sources */,
 				ADAF9945281AB71400F5B332 /* CarList.swift in Sources */,
 				ADAF9943281AB71400F5B332 /* CarDealerApp.swift in Sources */,
 			);
